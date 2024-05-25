@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: sample-app
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    buildCommand: bundle exec rake assets:precompile
+    startCommand: bundle exec rails s -b 0.0.0.0 -p 10000

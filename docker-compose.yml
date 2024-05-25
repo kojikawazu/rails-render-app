@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  app: 
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    command: bash -c "bundle install && bundle exec rails server -b 0.0.0.0"
+    depends_on:
+      - db
+    environment:
+      - TZ=Asia/Tokyo
+
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: password
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:

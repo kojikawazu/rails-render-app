@@ -1,0 +1,16 @@
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/debug-1.9.2/ext/debug
+/home/haru/.rbenv/versions/3.1.0/bin/ruby -I /home/haru/.rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20240526-4961-dmmt35.rb extconf.rb
+creating Makefile
+
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= clean
+
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240526-4961-oijocf/debug

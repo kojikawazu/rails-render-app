@@ -1,0 +1,15 @@
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+/home/haru/.rbenv/versions/3.1.0/bin/ruby -I /home/haru/.rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20240526-4961-syn5ve.rb extconf.rb
+creating Makefile
+
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240526-4961-98q9xr/racc

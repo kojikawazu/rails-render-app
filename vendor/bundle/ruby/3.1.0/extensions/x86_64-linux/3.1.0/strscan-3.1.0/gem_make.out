@@ -1,0 +1,17 @@
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+/home/haru/.rbenv/versions/3.1.0/bin/ruby -I /home/haru/.rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20240526-4961-3hyq81.rb extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= clean
+
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\=
+compiling strscan.c
+linking shared-object strscan.so
+
+current directory: /home/haru/rails-render-app/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20240526-4961-6wd3xi
