@@ -69,5 +69,5 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
 
   # allowed host list
-  config.hosts << "rails-render-app.onrender.com"
+  config.hosts << ENV.fetch("ALLOWED_HOST", "rails-render-app.onrender.com")
 end

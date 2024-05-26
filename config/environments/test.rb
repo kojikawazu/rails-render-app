@@ -59,5 +59,5 @@ Rails.application.configure do
   # config.action_view.annotate_rendered_view_with_filenames = true
 
   # allowed host list
-  config.hosts << "rails-render-app.onrender.com"
+  config.hosts << ENV.fetch("ALLOWED_HOST", "rails-render-app.onrender.com")
 end

@@ -197,5 +197,12 @@ bundle exec rails db:create
 bundle exec rails db:migrate
 ```
 
+# URL
 
+https://qiita.com/koki_73/items/60b327a586129d157f38#%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E6%89%8B%E9%A0%86-%E3%81%9D%E3%81%AE2-%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E7%94%A8%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E7%94%A8%E6%84%8F%E3%81%AA%E3%81%A9
 
+https://guides.rubyonrails.org/configuring.html#actiondispatch-hostauthorization
+
+https://zenn.dev/dragonarrow/articles/1f3c34e31d0acc
+
+https://qiita.com/kodai_0122/items/67c6d390f18698950440
