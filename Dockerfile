@@ -14,11 +14,14 @@ RUN bundle install
 COPY docker-entrypoint.sh /usr/bin/
 RUN chmod +x /usr/bin/docker-entrypoint.sh
 
-# 起動時に実行するエントリーポイントスクリプトを設定
-ENTRYPOINT ["docker-entrypoint.sh"]
+# アプリケーションのソースを追加
+COPY . /app
 
 # ポートは3000番
 EXPOSE 3000
+
+# 起動時に実行するエントリーポイントスクリプトを設定
+ENTRYPOINT ["docker-entrypoint.sh"]
 
 # デフォルトのコマンドを設定（Railsサーバを起動）
 CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]

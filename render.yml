@@ -1,8 +1,10 @@
 services:
   - type: web
-    name: sample-app
+    name: rails-render-app
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
     buildCommand: bundle exec rake assets:precompile
-    startCommand: bundle exec rails s -b 0.0.0.0 -p 10000
+    startCommand: bundle exec rails db:migrate RAILS_ENV=production && bundle exec rails s -b 0.0.0.0 -p $PORT
+
+
