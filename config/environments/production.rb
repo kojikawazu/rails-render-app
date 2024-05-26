@@ -92,5 +92,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # allowed host list
-  config.hosts << ENV.fetch("ALLOWED_HOST", "rails-render-app.onrender.com")
+  config.hosts << "rails-render-app.onrender.com"
 end
