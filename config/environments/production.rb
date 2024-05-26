@@ -90,4 +90,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # 環境変数からホスト名を取得して設定
+  config.hosts << ENV.fetch("ALLOWED_HOST", "rails-render-app.onrender.com")
 end
